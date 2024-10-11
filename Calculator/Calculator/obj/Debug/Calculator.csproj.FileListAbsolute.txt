@@ -1,0 +1,7 @@
+U:\Tretak\seminar_niceni_pocitacu\Seminar_PRG\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+U:\Tretak\seminar_niceni_pocitacu\Seminar_PRG\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+U:\Tretak\seminar_niceni_pocitacu\Seminar_PRG\Calculator\Calculator\bin\Debug\Calculator.exe.config
+U:\Tretak\seminar_niceni_pocitacu\Seminar_PRG\Calculator\Calculator\bin\Debug\Calculator.exe
+U:\Tretak\seminar_niceni_pocitacu\Seminar_PRG\Calculator\Calculator\bin\Debug\Calculator.pdb
+U:\Tretak\seminar_niceni_pocitacu\Seminar_PRG\Calculator\Calculator\obj\Debug\Calculator.exe
+U:\Tretak\seminar_niceni_pocitacu\Seminar_PRG\Calculator\Calculator\obj\Debug\Calculator.pdb
