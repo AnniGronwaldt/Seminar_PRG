@@ -1,0 +1,9 @@
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\grafika\grafika\bin\Debug\grafika.exe.config
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\grafika\grafika\bin\Debug\grafika.exe
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\grafika\grafika\bin\Debug\grafika.pdb
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\grafika\grafika\obj\Debug\grafika.csprojResolveAssemblyReference.cache
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\grafika\grafika\obj\Debug\grafika.Form1.resources
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\grafika\grafika\obj\Debug\grafika.Properties.Resources.resources
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\grafika\grafika\obj\Debug\grafika.csproj.GenerateResource.Cache
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\grafika\grafika\obj\Debug\grafika.exe
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\grafika\grafika\obj\Debug\grafika.pdb
