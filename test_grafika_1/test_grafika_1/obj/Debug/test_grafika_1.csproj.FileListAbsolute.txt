@@ -1,0 +1,9 @@
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\test_grafika_1\test_grafika_1\bin\Debug\test_grafika_1.exe.config
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\test_grafika_1\test_grafika_1\bin\Debug\test_grafika_1.exe
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\test_grafika_1\test_grafika_1\bin\Debug\test_grafika_1.pdb
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\test_grafika_1\test_grafika_1\obj\Debug\test_grafika_1.csprojResolveAssemblyReference.cache
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\test_grafika_1\test_grafika_1\obj\Debug\test_grafika_1.Form1.resources
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\test_grafika_1\test_grafika_1\obj\Debug\test_grafika_1.Properties.Resources.resources
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\test_grafika_1\test_grafika_1\obj\Debug\test_grafika_1.csproj.GenerateResource.Cache
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\test_grafika_1\test_grafika_1\obj\Debug\test_grafika_1.exe
+H:\2D\Gronwaldtova\Druhák\Programování - příklady\test_grafika_1\test_grafika_1\obj\Debug\test_grafika_1.pdb
