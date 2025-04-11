@@ -4,15 +4,19 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Permissions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace malovani
 {
+ 
+    
+
     public partial class Form1 : Form
     {
-        //Graphics paint = CreateGraphics;
+        
 
 
         public Form1()
@@ -24,7 +28,10 @@ namespace malovani
         
         
         private void panel1_Paint(object sender, PaintEventArgs e)
-        { }
+        {
+            
+
+        }
 
         
 
@@ -54,6 +61,20 @@ namespace malovani
         }
 
 
+
+
+        //
+
+        int x;
+        private void width(object sender, EventArgs e)
+        {
+            if (userpen == true)
+            {
+                Pen.Width = width.Value;
+            }
+        }
+
+        
 
 
 
@@ -156,18 +177,48 @@ namespace malovani
 
         //shapes
 
+
+        private void sizeSet(object sender, EventArgs e)
+        {
+             int y = Convert.ToInt32;
+        }
+
         private void square(object sender, EventArgs e)
         {
+            if (mouseDown == true)
+            {
+                mouseDown = true;
+                Point lastPosition;
+                lastPosition = e.Location;
 
+                g.DrawRectangle(50, 50, e.Location);
+            }
+            
         }
 
         private void circle(object sender, EventArgs e)
         {
+            if (mouseDown == true)
+            {
+                mouseDown = true;
+                Point lastPosition;
+                lastPosition = e.Location;
+
+                g.DrawEllipse(50, 50, e.Location);
+            }
 
         }
 
         private void rectangle(object sender, EventArgs e)
         {
+            if (mouseDown == true)
+            {
+                mouseDown = true;
+                Point lastPosition;
+                lastPosition = e.Location;
+
+                g.DrawRectangle(50, 100, e.Location);
+            }
 
         }
 
@@ -230,7 +281,37 @@ namespace malovani
             }
             else if (userairbrush == true)
             {
-
+                if (color == 1) { g.DrawLine(Pens.Red, e.Location, lastPosition); }
+                if (color == 2) { g.DrawLine(Pens.Orange, e.Location, lastPosition); }
+                if (color == 3) { g.DrawLine(Pens.Yellow, e.Location, lastPosition); }
+                if (color == 4) { g.DrawLine(Pens.Green, e.Location, lastPosition); }
+                if (color == 5) { g.DrawLine(Pens.Cyan, e.Location, lastPosition); }
+                if (color == 6) { g.DrawLine(Pens.DeepSkyBlue, e.Location, lastPosition); }
+                if (color == 7) { g.DrawLine(Pens.Purple, e.Location, lastPosition); }
+                if (color == 8) { g.DrawLine(Pens.Pink, e.Location, lastPosition); }
+                if (color == 9) { g.DrawLine(Pens.Black, e.Location, lastPosition); }
+                if (color == 10) { g.DrawLine(Pens.Gray, e.Location, lastPosition); }
+                if (color == 11) { g.DrawLine(Pens.White, e.Location, lastPosition); }
+                if (color == 12) { g.DrawLine(Pens.DarkGreen, e.Location, lastPosition); }
+                if (color == 13) { g.DrawLine(Pens.SaddleBrown, e.Location, lastPosition); }
+                if (color == 14) { g.DrawLine(Pens.DarkBlue, e.Location, lastPosition); }
+            }
+            else if (userkaligraphy)
+            {
+                if (color == 1) { g.DrawLine(Pens.Red, e.Location, lastPosition); }
+                if (color == 2) { g.DrawLine(Pens.Orange, e.Location, lastPosition); }
+                if (color == 3) { g.DrawLine(Pens.Yellow, e.Location, lastPosition); }
+                if (color == 4) { g.DrawLine(Pens.Green, e.Location, lastPosition); }
+                if (color == 5) { g.DrawLine(Pens.Cyan, e.Location, lastPosition); }
+                if (color == 6) { g.DrawLine(Pens.DeepSkyBlue, e.Location, lastPosition); }
+                if (color == 7) { g.DrawLine(Pens.Purple, e.Location, lastPosition); }
+                if (color == 8) { g.DrawLine(Pens.Pink, e.Location, lastPosition); }
+                if (color == 9) { g.DrawLine(Pens.Black, e.Location, lastPosition); }
+                if (color == 10) { g.DrawLine(Pens.Gray, e.Location, lastPosition); }
+                if (color == 11) { g.DrawLine(Pens.White, e.Location, lastPosition); }
+                if (color == 12) { g.DrawLine(Pens.DarkGreen, e.Location, lastPosition); }
+                if (color == 13) { g.DrawLine(Pens.SaddleBrown, e.Location, lastPosition); }
+                if (color == 14) { g.DrawLine(Pens.DarkBlue, e.Location, lastPosition); }
             }
 
             
@@ -239,6 +320,8 @@ namespace malovani
         private void iBegYouPleaseDraw(object sender, MouseEventArgs e)
         {
             mouseMove = true;
+
+            g.DrawLine;
         }
 
         private void stop(object sender, MouseEventArgs e)
@@ -250,12 +333,25 @@ namespace malovani
 
 
 
-        private void width(object sender, EventArgs e)
+        
+
+        private void reset(object sender, EventArgs e)
         {
-            int i;
-            //width(i, i++)
+
         }
 
         
+    }
+
+    public class MyBrush
+    {
+        private int height;
+        private int width;
+
+        public MyBrush(int height, int width)
+        {
+            height = this.height;
+            this.width = width;
+        }
     }
 }
